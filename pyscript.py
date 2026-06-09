@@ -15,4 +15,3 @@ def messageInfo(title, str):
     
 def messageWarning(title, str):
     x.showwarning(title, str)
-    playsound.playsound("Alarm01.wav")
