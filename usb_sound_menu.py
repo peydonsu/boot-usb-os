@@ -1,4 +1,4 @@
 import bot as b
 
-def open():
-    
+
+b.usb_menu()

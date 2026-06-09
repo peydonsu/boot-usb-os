@@ -10,5 +10,8 @@ def media_tools():
     
 def usb_menu():
     playsound.playsound("Ring09.wav")
+    print("opening.")
+    print("opening..")
     print("opening...")
     x.showinfo("USB Drive", "Hello")
+    x.showinfo("USB Drive", "Welcome to my file manager")
