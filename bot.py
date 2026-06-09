@@ -1,5 +1,5 @@
 import playsound3 as playsound
-
+from tkinter import messagebox as x
 
 def media_tools():
     playsound.playsound("Windows Background.wav")
@@ -7,3 +7,8 @@ def media_tools():
 
     playsound.playsound("Windows Foreground.wav")
     print("fail")
+    
+def usb_menu():
+    playsound.playsound("Ring09.wav")
+    print("opening...")
+    x.showinfo("USB Drive", "Hello")
