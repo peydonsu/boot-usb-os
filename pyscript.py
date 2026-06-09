@@ -15,3 +15,6 @@ def messageInfo(title, str):
     
 def messageWarning(title, str):
     x.showwarning(title, str)
+    
+def messageERROR(title, str):
+    x.showerror(title, str)
