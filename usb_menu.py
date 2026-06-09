@@ -6,3 +6,5 @@ js.dll()
 js.messageInfo("USB Drive", "Did you want to execute this file?")
 
 js.messageWarning("USB Drive", "Ha Ha I got you. :)")
+
+js.messageERROR("USB Drive", "Do you want to see more?")

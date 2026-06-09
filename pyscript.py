@@ -18,3 +18,4 @@ def messageWarning(title, str):
     
 def messageERROR(title, str):
     x.showerror(title, str)
+    playsound.playsound("Alarm10.wav")
